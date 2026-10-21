@@ -1,0 +1,19 @@
+{
+ "name": "eventure-server",
+ "type": "module",
+ "scripts": {
+  "start": "node --env-file-if-exists=.env index.js",
+  "dev": "node --env-file-if-exists=.env --watch index.js"
+ },
+ "dependencies": {
+  "bcryptjs": "^2.4.3",
+  "cors": "^2.8.5",
+  "express": "^4.19.2",
+  "jsonwebtoken": "^9.0.2",
+  "nodemailer": "^6.9.14",
+  "qrcode": "^1.5.4"
+ },
+ "engines": {
+  "node": ">=22.13"
+ }
+}
